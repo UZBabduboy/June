@@ -1,0 +1,130 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header  {
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ padding: 10px 0;
+ align-items: center;
+ background-color: transparent;
+}
+
+.logo h1{
+    color: blue;
+    font-family: sans-serif;
+}
+
+.logo h1 span{
+    color: black;
+}
+
+.menu ul {
+ display: flex;
+ list-style: none;
+ gap: 20px;
+}
+
+.menu ul li a{
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    color: blue;
+}
+
+.contant{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.contast button{
+    border: 2px solid blue;
+    border-color: transparent;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: blue;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+.container{
+    background-color: rgb(218, 210, 241);
+    height: 100vh;
+    padding: 0 100px;
+}
+
+.contant{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text1{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.text2{
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.btn{
+    display: flex;
+    gap: 20px ;
+    align-items: center;
+}
+
+.btn a{
+    color: black;
+}
+
+.btn button{
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.image1{
+    position: relative;
+}
+
+.image1 div{
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+    z-index: 1;
+    transform: translate(20%);
+}
+
+.image1 img{
+    position: relative;     
+    display: flex;
+    z-index: 1000;
+}
